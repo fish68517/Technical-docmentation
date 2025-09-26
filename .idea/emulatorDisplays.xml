@@ -17,21 +17,40 @@
                     <option name="height" value="1920" />
                     <option name="width" value="1080" />
                   </DisplayDescriptor>
+                  <DisplayDescriptor>
+                    <option name="displayId" value="2" />
+                    <option name="height" value="1280" />
+                    <option name="width" value="720" />
+                  </DisplayDescriptor>
                 </list>
               </option>
               <option name="panelState">
                 <PanelState>
                   <option name="splitPanel">
                     <SplitPanelState>
-                      <option name="proportion" value="0.4000000059604645" />
+                      <option name="proportion" value="0.7142857313156128" />
                       <option name="firstComponent">
                         <PanelState>
-                          <option name="displayId" value="0" />
+                          <option name="splitPanel">
+                            <SplitPanelState>
+                              <option name="proportion" value="0.4000000059604645" />
+                              <option name="firstComponent">
+                                <PanelState>
+                                  <option name="displayId" value="0" />
+                                </PanelState>
+                              </option>
+                              <option name="secondComponent">
+                                <PanelState>
+                                  <option name="displayId" value="1" />
+                                </PanelState>
+                              </option>
+                            </SplitPanelState>
+                          </option>
                         </PanelState>
                       </option>
                       <option name="secondComponent">
                         <PanelState>
-                          <option name="displayId" value="1" />
+                          <option name="displayId" value="2" />
                         </PanelState>
                       </option>
                     </SplitPanelState>
@@ -47,8 +66,8 @@
               <option name="displayDescriptors">
                 <list>
                   <DisplayDescriptor>
-                    <option name="height" value="1920" />
-                    <option name="width" value="1080" />
+                    <option name="height" value="1080" />
+                    <option name="width" value="1920" />
                   </DisplayDescriptor>
                   <DisplayDescriptor>
                     <option name="displayId" value="6" />
@@ -61,7 +80,7 @@
                 <PanelState>
                   <option name="splitPanel">
                     <SplitPanelState>
-                      <option name="proportion" value="0.7297297120094299" />
+                      <option name="proportion" value="0.8275862336158752" />
                       <option name="firstComponent">
                         <PanelState>
                           <option name="displayId" value="0" />
