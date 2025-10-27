@@ -136,7 +136,7 @@ Git for Windows 可以使用不同的库来处理 SSL 连接。默认是 OpenSSL
 5.  如果以上都失败了，花点时间配置 **方案四 (SSH)**，这可以从根本上解决这类 HTTPS 连接问题。
 
 ### git log 查看提交记录
-	git log --graph --pretty=format:"%C(yellow)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ar) %C(bold blue)<%an>%C(reset)"
+git log --graph --pretty=format:"%C(yellow)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ar) %C(bold blue)<%an>%C(reset)"
 git config --global alias.lgAll 'log --graph --pretty=format:"%C(yellow)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ar) %C(bold blue)<%an>%C(reset)"'
 
 绝对可以！这是一个非常棒的进阶想法，通过组合 Git 的能力和 Shell 的能力，我们可以实现你想要的两种功能：**过滤**和**高亮**。
@@ -271,3 +271,17 @@ git config --global alias.hl "!f() { git lgAll | grep -E --color=always --ignore
 | **看所有**提交，并**高亮** "fix" | **高亮** (新别名 `hl`) | `git hl fix` |
 
 这两个工具结合起来，能让你在海量的提交历史中快速定位和分析信息，极大地提升效率。
+
+# Git 配置查看指南
+
+本文档介绍了如何在 Git Bash 中查看 Git 的各种配置，包括系统、全局和本地配置。
+
+## 1. 查看所有 Git 配置
+
+此命令会列出所有生效的 Git 配置，包括系统、全局和本地配置。如果同一个配置项在不同级别有定义，则优先级高的会覆盖优先级低的，此命令显示的是最终生效的值。
+
+```bash
+git config --list
+
+### 6. 查找文件
+git lgFile app\src\main\java\com\patac\launcher\Launcher.java
